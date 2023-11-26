@@ -1,0 +1,1 @@
+aws ec2 authorize-security-group-ingress --group-id sg-0485bb50472050589 --protocol tcp --port 7788 --cidr 0.0.0.0/0

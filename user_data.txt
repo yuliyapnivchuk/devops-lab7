@@ -1,0 +1,3 @@
+#!/bin/bash
+sed -i 's/#GatewayPorts no/GatewayPorts yes/g' /etc/ssh/sshd_config
+systemctl restart ssh
